@@ -1,2 +1,23 @@
-# Popeye
-Ce projet a pour objectif d’apprendre à dockeriser une application existante. Le code est déjà fourni, et l’objectif est de le conteneuriser avec Docker et Docker Compose. En suivant les étapes, vous pourrez exécuter le projet facilement en local via des conteneurs.
+📌 Prérequis
+
+    Docker Desktop installé sur votre machine
+
+📥 Installation
+
+  Cloner le projet
+
+    git clone ..
+
+Construire les conteneurs
+
+docker-compose build
+
+Lancer le projet
+
+    docker-compose up
+
+    Accéder aux services :
+        🌍 Frontend : http://localhost:5000
+        📊 Résultats : http://localhost:5001
+
+Pour arrêter les conteneurs, utilisez CTRL + C ou docker-compose down.
