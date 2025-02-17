@@ -16,8 +16,8 @@ Lancer le projet
 
     docker-compose up
 
-    Accéder aux services :
-        🌍 Frontend : http://localhost:5000
-        📊 Résultats : http://localhost:5001
+Accéder aux services :
+    🌍 Frontend : http://localhost:5000
+    📊 Résultats : http://localhost:5001
 
 Pour arrêter les conteneurs, utilisez CTRL + C ou docker-compose down.
